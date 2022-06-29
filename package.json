@@ -1,0 +1,60 @@
+{
+  "name": "@gorecats/wallet-adapter",
+  "version": "0.8.2",
+  "author": "GoreCats",
+  "repository": "https://github.com/studionx/gorecats-wallet",
+  "license": "Apache-2.0",
+  "files": [
+    "pages",
+    "public",
+    "styles",
+    ".eslintrc.json",
+    "LICENSE",
+    "next.config.js",
+    "next-env.d.ts",
+    "README.md",
+    "tsconfig.json"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "clean": "shx rm -rf .next",
+    "dev": "next dev",
+    "build": "yarn clean && next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@metaplex-foundation/mpl-token-metadata": "1.2.3",
+    "@metaplex/js": "4.3.0",
+    "@mui/icons-material": "^5.6.1",
+    "@mui/material": "^5.6.1",
+    "@solana/buffer-layout": "^4.0.0",
+    "@solana/pay": "^0.1.3",
+    "@solana/spl-token": "^0.2.0-alpha.1",
+    "@solana/wallet-adapter-base": "^0.9.3",
+    "@solana/wallet-adapter-react": "^0.15.3",
+    "@solana/wallet-adapter-react-ui": "^0.9.5",
+    "@solana/wallet-adapter-wallets": "^0.15.4",
+    "@solana/web3.js": "^1.35.0",
+    "@svgr/webpack": "^6.2.1",
+    "moment": "^2.29.2",
+    "next": "12.0.10",
+    "react": "17.0.2",
+    "react-countdown": "^2.3.2",
+    "react-dom": "17.0.2",
+    "react-toastify": "^8.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.17",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "eslint": "^8.8.0",
+    "eslint-config-next": "^12.0.7",
+    "shx": "^0.3.3",
+    "typescript": "~4.5.5"
+  }
+}
