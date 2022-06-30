@@ -23,8 +23,8 @@
     "dev": "next dev",
     "build": "yarn clean && next build",
     "start": "next start",
-    "lint": "next lint",
-    "export": "next build && next export"
+    "export": "next build && next export",
+    "lint": "next lint"
   },
   "dependencies": {
     "@emotion/react": "^11.9.0",
@@ -43,7 +43,7 @@
     "@solana/web3.js": "^1.35.0",
     "@svgr/webpack": "^6.2.1",
     "moment": "^2.29.2",
-    "next": "12.0.10",
+    "next": "10.0.10",
     "react": "17.0.2",
     "react-countdown": "^2.3.2",
     "react-dom": "17.0.2",
