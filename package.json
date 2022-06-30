@@ -23,7 +23,8 @@
     "dev": "next dev",
     "build": "yarn clean && next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next build && next export"
   },
   "dependencies": {
     "@emotion/react": "^11.9.0",
