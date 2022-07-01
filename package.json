@@ -21,10 +21,9 @@
   "scripts": {
     "clean": "shx rm -rf .next",
     "dev": "next dev",
-    "build": "yarn clean && next build",
+    "build": "next build && next export",
     "start": "next start",
-    "lint": "next lint",
-    "export": "next build && next export"
+    "lint": "next lint"
   },
   "dependencies": {
     "@emotion/react": "^11.9.0",
